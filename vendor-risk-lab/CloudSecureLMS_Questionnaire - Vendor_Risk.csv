@@ -1,0 +1,26 @@
+Question,Vendor Response,Risk Score (1-5),Reviewer Notes / Comments
+Company name,CloudSecure LMS,1,
+Primary service offered,Cloud-based Learning Management System (LMS) for educational institutions and corporate training,1,
+Years in business,6 years,1,
+Key contacts for security and compliance,"Security Contact: security@cloudsecure.io
+Compliance Officer: compliance@cloudsecure.io",1,
+Regulatory or compliance certifications,"SOC 2 Type I (audit ongoing for Type II)
+ISO/IEC 27001 (certified, valid through 2026)
+",3,"SOC 2 not complete, HIPAA partial"
+Does the vendor implement multi-factor authentication (MFA)?,"Yes, required for all admin and user access via SSO (Okta)",1,
+Is there encryption at rest and in transit for all sensitive data?,AES-256 encryption for data at rest; TLS 1.2+ for data in transit.,1,
+Are firewalls/IDS/IPS in place to protect network traffic?,Network and application firewalls deployed. IDS is in place. ,3,No IPS
+Does the vendor conduct regular vulnerability scanning and penetration testing?,"Weekly automated scans. Annual external penetration tests, most recent completed in Q2 2024.",1,
+Are security policies documented and available upon request?,Documented and available under NDA. Reviewed annually.,1,
+Does the vendor hold a current SOC 2 Type II report?,In progress: audit to complete by February 2026. Type I completed in August 2025.,2,SOC 2 is in progress.
+Is the vendor certified to ISO/IEC 27001?,Certified since 2023; external audit completed by Deloitte.,1,
+"Does the vendor provide GDPR, HIPAA, or other compliance attestations?",GDPR-compliant. HIPAA controls partially implemented,3," Not full Business Associate Agreement ready, recommend limiting PHI access until HIPAA BAA is established."
+Are annual external audits performed on their security controls?,"Yes, ISO annually; SOC 2 (Type II first-time) underway.",2,SOC 2 is not finalized
+Does the vendor have a documented incident response plan?,"Yes, includes 24-hour breach notification clause.",1,
+When was the last incident response test conducted?,Tabletop exercise conducted in June 2025.,1,
+Is there a disaster recovery or business continuity plan?,"Yes, includes 4-hour RTO and 12-hour RPO.",2,RPO could be shorter time frame due to importance of assets.
+Are backups performed regularly and tested?,"Encrypted, stored in AWS S3 with lifecycle policies. Tested quarterly.",1,
+"Are third-party subcontractors used? If so, describe control oversight.","Yes, AWS (IaaS), Auth0 (SSO/MFA), and Segment (analytics). All under MSA + DPA.",1,
+How is access to sensitive data controlled and logged?,"Role-based access (RBAC), reviewed quarterly. All access logged.",1,
+Are access reviews conducted periodically?,Quarterly reviews by internal audit team.,1,
+How is vendor data handled at termination of service?,All customer data deleted 30 days post-termination. Optional export tools provided.,1,
