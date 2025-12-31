@@ -1,42 +1,60 @@
-# Vendor Risk Assessment & Due Diligence (GRC Lab)
+# Vendor Risk Assessment – CloudSecure LMS (GRC Lab)
 
-This project demonstrates a **Vendor Risk Assessment** for a fictional third‑party service provider. It reflects core *Governance, Risk, and Compliance (GRC)* techniques for evaluating vendor security posture, data handling practices, and compliance with industry frameworks (e.g., NIST CSF, ISO 27001, SOC 2).
-
----
-
-## 🧠 Key Objectives
-
-- Review a vendor’s **security, compliance, and operational controls**
-- Use a structured **questionnaire** to gather third‑party risk data
-- Score risk and identify gaps in controls
-- Provide **recommendations and mitigation plans**
-- Format results into an audit‑ready risk assessment report
+This lab simulates a third-party **vendor risk assessment** for a fictional EdTech provider, **CloudSecure LMS**, as part of a GRC portfolio project. It applies industry best practices for evaluating vendor controls and assigning qualitative risk scores across 22 categories.
 
 ---
 
-## 🔐 Relevance to GRC
+## 📌 Objectives
 
-This lab covers essential areas in third‑party risk management:
-
-- Due diligence and vendor onboarding controls
-- Assessment of security and compliance practices
-- Risk scoring and prioritization
-- Documentation suitable for audit and risk committees
-- Alignment with frameworks such as **NIST CSF**, **ISO 27001**, and **SOC 2**
+- Assess vendor security posture using a structured GRC questionnaire
+- Score risks across administrative, technical, and compliance domains
+- Recommend mitigation strategies for moderate and high-risk areas
+- Deliver audit-ready documentation and summary reporting
 
 ---
 
 ## 📁 Files Included
 
-- `Vendor_Risk_Assessment_Report.docx` – Formal report documenting results
-- `Vendor_Risk_Assessment_Report.pdf` – PDF version for preview
-- `Vendor_Risk_Questionnaire.xlsx` – Questionnaire with sample responses
-- `README.md` – Project overview (this file)
+| File Name                                      | Description                                               |
+|-----------------------------------------------|-----------------------------------------------------------|
+| `Vendor_Risk_Assessment_Report.pdf`           | Final assessment report (PDF – polished presentation)     |
+| `Vendor_Risk_Assessment_Scoring.xlsx`         | Full questionnaire + scoring + risk summary (Excel)       |
+| `Vendor_Risk_Assessment_Scoring - Vendor_Risk.csv` | Clean CSV version for GitHub (same as above)             |
+| `README.md`                                   | This file                                                 |
 
 ---
 
-## 📌 Author
+## 🔐 Risk Summary
+
+- **Vendor:** CloudSecure LMS  
+- **Assessed By:** Tiffany Christman  
+- **Assessment Date:** December 2025  
+- **Average Risk Score:** 1.41 / 5  
+- **Final Risk Tier:** 🟢 Low Risk
+
+---
+
+## ✅ Key Recommendations
+
+- Complete SOC 2 Type II audit (in progress)
+- Formalize HIPAA safeguards and sign BAA
+- Address IPS gaps (compensating controls if needed)
+- Ensure oversight of subcontractors (e.g., AWS, Auth0)
+- Maintain quarterly access reviews and IR/BC/DR testing
+
+---
+
+## 🧠 Skills Demonstrated
+
+- Vendor risk analysis
+- GRC control scoring
+- Risk-tier classification
+- Executive-level reporting
+- GitHub project documentation
+
+---
+
+## 👤 Author
 
 **Tiffany Christman**  
-*Cybersecurity Analyst | GRC‑Focused | Third‑Party Risk & Compliance*
-
+*Cybersecurity Analyst | GRC-Focused | Lab creator for risk, compliance, and governance*
